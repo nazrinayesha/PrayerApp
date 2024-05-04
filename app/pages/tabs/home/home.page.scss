@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+
+}
+
+.image {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    border-radius: 25px;
+    width: 356px;
+    height: 180px;
+
+}
+.scndimg {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px 0px 20px;
+}
