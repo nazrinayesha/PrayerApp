@@ -31,11 +31,17 @@ export const routes: Routes = [
                 redirectTo: '/tabs/home',
                 pathMatch: 'full'
             }
-        ]
+        ],
     },
-    {
-        path: '',
-        redirectTo: '/tabs/home',
-        pathMatch: 'full'
-    },
+  {
+    path: 'morning/:id',
+    loadComponent: () => import('./morning/morning.page').then( m => m.MorningPage)
+  },
+  {
+    path: 'evening/:id',
+    loadComponent: () => import('./evening/evening.page').then( m => m.EveningPage)
+  },
+
+
+  
 ];
