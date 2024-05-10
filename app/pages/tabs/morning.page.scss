@@ -1,0 +1,35 @@
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+    margin: 20px 10px 10px 60px;
+
+}
+
+ion-back-button {
+    height: 20px;
+}
+
+.first {
+    margin: 80px 20px 20px 20px; 
+
+}
+
+.sec {
+    margin: 20px;
+}
+.third {
+    margin: 20px;
+}
+
+ion-button {
+    --background: #f5f6f9;
+    color: black;
+    height: 70px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 10px;
+    border: 2px solid #e6e6e6;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
