@@ -2,10 +2,18 @@
   <div class="header">
     <h1>Home</h1>
   </div>
-  <div class="image">
-    <img src="./assets/sun 1.png" alt=""/>
+  
+  <div class="content_div">
+    <ion-grid fixed>
+      <ion-row>
+        <ion-col size="12">
+            <img src="assets/sun 1.png" (click)="navigateToMorningPage()"/>  
+        </ion-col>
+        <ion-col size="12">
+            <img src="assets/moon1.png" (click)="navigateToEveningPage()"/>  
+        </ion-col>
+      </ion-row>
+    </ion-grid>
   </div>
-  <div class="scndimg">
-    <img src="./assets/moon1.png" alt=""/>
-  </div>
+
 </ion-content>
