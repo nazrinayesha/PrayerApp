@@ -1,0 +1,51 @@
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+    margin: 20px 10px 10px 10px;
+
+}
+
+.image {
+   
+    width: 25vh;
+}
+img {
+   width: 10rem;
+   height: 10rem;
+   border-radius: 50%;
+   margin: 10px 0px 0px 20px;
+}
+
+ion-list-header {
+    height: 20px;
+    margin: 5px 10px 0px 10px;
+}
+
+ion-item {
+    height: 56px;
+}
+
+ion-input {
+    height: 25px;
+    border: 2px solid #dddce1;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: #ededf1;
+}
+
+
+ion-label {
+    height: 20px;
+}
+
+ion-checkbox {
+    margin: 5px 10px 10px 20px;
+    font-size: 20px;
+}
+
+ion-button {
+    border-radius: 5px;
+    margin: 50px 20px 0px 20px;
+   
+}
